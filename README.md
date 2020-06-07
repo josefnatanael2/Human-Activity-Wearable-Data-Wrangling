@@ -17,6 +17,7 @@ There are three script files.
 	 - Appropriately labels the data set with descriptive variable names.
 	 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-There will be one cleaned data file
+There will be two cleaned data file
 
- - merged_cleaned_data.txt
+ - `merged_cleaned_data.txt` cleaned data from step 4
+ - `tidy.txt` output of step 5 in `run_analysis.R`
