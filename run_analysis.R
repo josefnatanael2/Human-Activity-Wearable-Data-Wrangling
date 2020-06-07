@@ -27,6 +27,7 @@ names(selected_df) <- gsub("gravity", "Gravity", names(selected_df))
 names(selected_df) <- tolower(names(selected_df))
 selected_df <- rename(selected_df, activity=label)
 selected_df$subject <- as.factor(selected_df$subject) 
+names(selected_df) <- gsub("\\.", "", names(selected_df))
 # Output cleaned data
 write.table(selected_df, "merged_cleaned_data.txt", row.name=FALSE)
 
