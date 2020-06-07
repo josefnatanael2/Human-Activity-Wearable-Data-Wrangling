@@ -120,3 +120,6 @@ Units and relevant information are given in the original dataset:
 * `SITTING`: subject was recorded sitting 
 * `STANDING`: subject was recorded standing 
 * `LAYING`: subject was recorded laying down 
+
+## Output data: `tidy.txt`
+Contains average of each variable for each activity and each subject from the cleaned data `merged_cleaned_data.txt`
